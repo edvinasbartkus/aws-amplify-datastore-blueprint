@@ -8,6 +8,10 @@ export const schema = {
                 {
                     "type": "model",
                     "properties": {}
+                },
+                {
+                    "type": "versioned",
+                    "properties": {}
                 }
             ],
             "fields": {
@@ -47,6 +51,10 @@ export const schema = {
             "attributes": [
                 {
                     "type": "model",
+                    "properties": {}
+                },
+                {
+                    "type": "versioned",
                     "properties": {}
                 }
             ],
@@ -100,6 +108,10 @@ export const schema = {
             "attributes": [
                 {
                     "type": "model",
+                    "properties": {}
+                },
+                {
+                    "type": "versioned",
                     "properties": {}
                 }
             ],

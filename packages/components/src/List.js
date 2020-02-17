@@ -9,12 +9,21 @@ async function query (setBlogs) {
 }
 
 export default function List () {
-  const [blogs, setBlogs] = React.useState(null)
+  const [blogs, setBlogs] = React.useState([])
   React.useEffect(() => {
     query(setBlogs)
+
+    const subscription = DataStore
+      .observe(Blog).subscribe(() => query(setBlogs))
+
+    return () => subscription.unsubscribe()
   }, [])
 
   return <View>
-    <Text>{JSON.stringify(blogs)}</Text>
+    {blogs.map(blog => {
+      return <View key={blog.id}>
+        <Text>{blog.name}</Text>
+      </View>
+    })}
   </View>
 }
