@@ -1,5 +1,9 @@
 {
   "name": "components",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/datastore": "1.0.7-rn-datastore.3",
+    "aws-amplify": "2.2.5-rn-datastore.3"
+  }
 }

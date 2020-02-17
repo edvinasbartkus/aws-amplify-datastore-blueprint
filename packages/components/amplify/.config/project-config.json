@@ -1,0 +1,17 @@
+{
+    "projectName": "blueprint",
+    "version": "3.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "none",
+        "config": {
+            "SourceDir": "../web/src",
+            "DistributionDir": "../web/build",
+            "BuildCommand": "yarn workspaces web build ",
+            "StartCommand": "yarn workspaces web start"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

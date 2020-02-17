@@ -7,9 +7,9 @@
     "build": "react-app-rewired build"
   },
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-native-web": "^0.12.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-native-web": "0.12.1",
     "react-scripts": "3.4.0"
   },
   "devDependencies": {

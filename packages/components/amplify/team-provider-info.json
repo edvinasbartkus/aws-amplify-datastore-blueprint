@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-blueprint-dev-161714-authRole",
+            "UnauthRoleArn": "arn:aws:iam::989212472318:role/amplify-blueprint-dev-161714-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::989212472318:role/amplify-blueprint-dev-161714-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-blueprint-dev-161714-deployment",
+            "UnauthRoleName": "amplify-blueprint-dev-161714-unauthRole",
+            "StackName": "amplify-blueprint-dev-161714",
+            "StackId": "arn:aws:cloudformation:eu-west-2:989212472318:stack/amplify-blueprint-dev-161714/33799d10-5190-11ea-b05c-06b0998bdefc",
+            "AmplifyAppId": "dsrlzwzpzu4li"
+        }
+    }
+}
