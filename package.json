@@ -1,0 +1,12 @@
+{
+  "name": "blueprint",
+  "private": true,
+  "workspaces": {
+      "packages": [
+            "packages/*"
+          ],
+      "nohoist": []
+    },
+  "dependencies": {
+  }
+}
